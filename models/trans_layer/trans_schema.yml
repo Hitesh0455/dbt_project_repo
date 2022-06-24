@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: order_details_trans
+    columns:
+      - name: dwhash_all
+        test: 
+          - unique
+          - not null
+  
+  - name: cal_trans
+    columns:
+      - name: year
+        tests:
+          - unique
+          - not null
