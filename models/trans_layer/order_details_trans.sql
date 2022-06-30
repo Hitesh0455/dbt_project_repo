@@ -26,6 +26,7 @@ select
         c.c_custkey,
         c.c_name,
         c.c_address,
+        c.c_phone,
         p.p_name,
         p.p_brand,
         o.o_orderdate,
